@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        header{
+            background-color: floralwhite;
+            padding :25px ;
+            text-align: center;
+
+        }
+        nav{
+            background-color: forestgreen;
+            padding :25px ;
+            text-align: center;
+        }
+        Index{
+            background-color: gold;
+            float :left ;
+            width: 100%;
+            height: 300px ;
+            padding :20px ;
+        }
+        article{
+            background-color:indianred ;
+            float :right ;
+            width: 100%;
+            height: 300px ;
+            padding :20px ;
+        }
+        section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+Footer{
+    background-color: indigo;
+    padding:10px;
+    text-align: center;
+
+}
+    </style>
+</head>
+<body>
+    <table style ="width: 100%;" >
+        <tr>
+            <td colspan="2">
+    <header class="header">
+        <p>Header Section</p>
+
+    </haeder>
+</td>
+</tr>
+
+<tr>
+    <td colspan="2">
+    <nav class="nav">
+<p>Navigation Bar</p>
+    </nav>
+</td>
+</tr>
+<tr>
+   <td>
+    <section class ="section" >
+    <index class = "Index">
+        <p>Index</p>
+    </index>
+</td>
+<td>
+    <article class = "article">
+        <p>Content Section</p>
+    </article>
+</td>
+</tr>
+</section>
+<tr>
+    <td colspan="2">
+    <footer class="footer">
+<p>Footer</p>
+    </footer>
+</td>
+</tr>
+</table>
+</body>
+</html>
