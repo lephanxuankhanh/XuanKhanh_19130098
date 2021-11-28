@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    
+}
+.form3{
+    width: 50%;
+    height: 95%;
+    background-color: rgb(202, 193, 193);
+    margin-left: 30%;
+    margin-top: 2.5%;
+}
+.account{
+    color: rgb(19, 226, 29);
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.box-name{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(250, 249, 249);
+}
+.box-email{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(250, 249, 249);
+}
+.box-pass{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(250, 249, 249);
+}
+.select-text{
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+}
+.select-day{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+.select-month{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+.select-year{
+    width: 15%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+
+.date{
+    margin-left: 10%;
+    color: rgb(19, 226, 29);
+}
+.gender{
+    color: rgb(19, 226, 29);
+}
+.select-gender{
+ margin-left: 13%;
+}
+.gender-male{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 5%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+.gender-female{
+    width: 20%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+.select-date{
+    justify-content: center;
+    display: flex;
+}
+.select-gender{
+    justify-content: center;
+    display: flex;
+}
+.pay{
+    color: rgb(19, 226, 29);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.Card{
+     justify-content: center;
+     display: flex;
+ 
+    
+}
+.creditCard{
+    width: 60%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20%;
+    
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+.paypal{
+ 
+    width: 60%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(87, 76, 76);
+}
+.box-card   {
+    width: 80%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(250, 249, 249);
+}
+.cardCVC{
+    justify-content: center;
+    display: flex;
+}
+.box-cardCVC {
+    width: 40%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+   
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(250, 249, 249);
+}
+.select-card-day{width: 10%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(39, 35, 35);
+    }
+.select-card-month{
+    width: 10%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(39, 35, 35);
+}
+.select-card-year{
+    width: 10%;
+    height: 50px;
+    background-color: rgb(252, 251, 247);
+    border-radius: 10px;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(41, 33, 33);
+}
+.text-footer{
+    color:rgb(19, 226, 29) ;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.accept{
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.acc{
+    margin-top: 20px;
+    
+}       

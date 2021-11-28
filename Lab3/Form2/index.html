@@ -10,25 +10,62 @@
 <body>
 
   <div class="cotainer">
-    <div class="register">
-       <form action="" method="post">
-          <h1 class="text-header">
-           <strong>Contact Us</strong>
-          </h1>
-    
-          <div class="input-box-name">
-            <span style="display: block; height: 50px; padding-left: 20px;" class="name">
-             <span >FULL NAME</span>
-             <input type="text" style="background: transparent; border:none;outline:none;" placeholder="Enter Your Name ">
+      <div class="title">
+         <strong>Contact Us</strong>
+      </div>
+
+       <div class="box-name">
+            <span class="box-name-span" >
+              <span>NAME *</span> <br>
+             <input type="text" class="box-name-input" 
+             placeholder="Enter Your Name">
            </span>
+       </div>
+
+       <div class="box-email-phone">
+          <div class="box-email">
+              <span class="box-email-span">
+                <span>EMAIL *</span> <br>
+                <input type="text" class="box-name-input" 
+                placeholder="Enter Your Email">
+              </span>
           </div>
 
-          <div class="input-box-pass">
-            <input type="password"  placeholder="Nhập mật khẩu">
+          <div class="box-phone">
+              <span class="box-phone-span">
+                <span>PHONE *</span> <br>
+                <input type="text" class="box-phone-input" 
+                placeholder="Enter Numer Phone">
+              </span>
+            </div>
+        </div>
+
+        <div class="box-service">
+          <span value="0" class="box-service-span">
+            <span>NEEDED SERVICE *</span> <br>
+            <select class="box-service-select" > 
+              <option value="0">Plaese Choose</option>
+              <option value="34">abc</option>
+              <option value="46">cde</option>
+              <option value="68">fgh</option>
+              <option value="812">klm</option>
+            </select>
             
+          </span>
+        </div>
+
+         <div class="box-message">
+              <span class="box-message-span">
+                <span>MESSAGE *</span> <br>
+                <input type="text" class="box-message-input" 
+                placeholder="Your Message Here....">
+              </span>
           </div>
-       </form>
-   </div>
+  <div class="submit">
+    <button class="but-sub">
+      Submit 
+    </button>
+  </div>
   </div>
 </body>
 </html>

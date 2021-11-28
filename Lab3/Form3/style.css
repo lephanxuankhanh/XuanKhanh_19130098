@@ -1,0 +1,86 @@
+*{
+    width: 100%;
+    margin: 0;
+}
+.form{
+    width: 20%;
+    background-color: rgb(245, 248, 248);
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.header{
+  
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.box-name-input{
+    width: 80%;
+    background-color: rgb(241, 247, 247);
+    height: 10%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);   
+    
+}
+::placeholder{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.box-pass-input{
+    width: 80%;
+    background-color: rgb(241, 247, 247);
+    height: 10%;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);    
+}
+.sigin{
+height: 10%;
+}
+.signin-button{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(218, 204, 9);
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 20px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(250, 249, 249);
+}
+.text-contaier{
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(216, 215, 214);
+}
+.logo{
+    display: flex;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.singup{
+
+}
+.button-signup{
+    width: 30%;
+    background-color: rgb(245, 248, 248);
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: 40%;
+    border-color:rgb(221, 219, 219);  
+    color: rgb(15, 15, 15);
+}
